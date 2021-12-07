@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro X=0, T=0, Z=0, Y=0
+
+		enquanto (X >= 0) {
+			escreva ("digite um numero? ")
+			leia (X)
+			Z++
+			se (X > 0)
+			T = T + X
+		}
+		Z--
+		Y = T /Z
+		escreva ("O valor de X é " + T + "\nNumeros de rodadas " + Z + "\nA media é " + Y)
+	}
+}

@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro X,Y = 0
+		para (X = 1 ; X <= 500 ; X++) {
+				se (X % 2 != 0 e X%3 == 0 ){
+					escreva ("\nN:" +  X)
+					Y = Y + X
+				}
+		}
+		 escreva("\nA soma de todos os números ímpares múltiplos de três entre 1-500 é igual a: " + Y)
+	}
+}

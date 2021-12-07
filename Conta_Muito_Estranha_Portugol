@@ -1,0 +1,42 @@
+programa
+{
+	
+	funcao inicio()
+	{
+// Nome: Gabriel l. Nolasco
+//Turma: 42
+
+		//dados
+
+		real a,b,c,d,z,f,x,y
+		
+		//primeiro encontro
+  		
+  		escreva ("qual o valor de a ? ")
+  		leia (a)
+  		
+  		escreva ("qual o valor de b ? ")
+  		leia (b)
+  		
+  		escreva ("qual o valor de c ? ")
+  		leia (c)
+
+  		escreva ("qual o valor de d ? ")
+  		leia (d)
+
+  		escreva ("qual o valor de z ? ")
+  		leia (z)
+
+  		escreva ("qual o valor de f ? ")
+  		leia (f)
+
+  		//processamento
+
+		x = ((c*z)-(b*f)) / ((a*z)-(b*d))
+		y = ((a*f)-(c*d)) / ((a*z)-(b*d))
+	
+  	   	//texto final
+
+  	   	escreva ("o valor de X é " + x + " o valor de Y é " + y )
+	}
+}

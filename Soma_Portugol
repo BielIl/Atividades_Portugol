@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro Z = 0,X = 0,Y = 0
+
+		escreva ("Qual o valor de X? ")
+		leia (X)
+		
+		faca {
+			
+			Y++
+			escreva (Y + "+")
+			Z = Z + Y
+		} 	
+		enquanto (Y == X )
+		escreva (Z)
+	}
+}

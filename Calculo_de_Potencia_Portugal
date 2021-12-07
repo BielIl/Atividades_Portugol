@@ -1,0 +1,45 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		real X,Y,Z,W,P
+
+		//mensagem inicial
+
+		escreva ("Digite o valor X ? ")
+		leia(X)
+		escreva ("Digite o valor Y ? ")
+		leia(Y)
+		escreva ("Digite o valor Z ? ")
+		leia(Z)
+		escreva ("Digite o valor W ? ")
+		leia(W)
+		
+		//processamento
+
+		Z = Z*Z
+		Y = Y*Y
+		X = X*X
+		W = W*W
+
+		se (Z >= 1000) {
+			
+			escreva ("O valor do quadrado é de " + Z)
+		}
+		
+		senao {
+			escreva ("O Valor dos quadrados é de " + Z)
+			escreva ("\nO Valor dos quadrados é de " + Y)
+			escreva ("\nO Valor dos quadrados é de " + X)
+			escreva ("\nO Valor dos quadrados é de " + W)
+		}
+		
+		//mensagem final
+
+		escreva ("\nDenada!")
+		
+	}
+}

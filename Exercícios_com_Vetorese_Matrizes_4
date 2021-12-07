@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real X[3][3], S = 0.0, T = 0
+
+		para (inteiro L = 0; L < 3; L++){
+	
+			para (inteiro C = 0; C < 3; C++){
+				escreva ("Digite o valor: ")
+				leia (X[L][C])
+					
+						T = (X[L][C] + T)
+			}
+		}	
+				escreva ("O valor total é " + T)
+			//Soma diagonal	
+			S = (X[0][0] + S)
+			S = (X[1][1] + S)
+			S = (X[2][2] + S)
+				escreva ("\nA soma da diagonal é " + S)
+	}
+}	

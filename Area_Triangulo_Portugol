@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		inteiro X,Y,Z
+
+		//mensagem inicial
+
+		escreva ("Qual base do triângulo? ")
+		leia (X)
+		escreva ("Qual altura do triângulo? ")
+		leia (Y)
+		
+
+		//processamento
+
+		se (X > 0 e Y > 0) {
+			
+			Z = (X*Y) /2
+			escreva ("O valor da área do triângulo é de " + Z)
+			
+		}
+		senao
+			escreva ("Isso não é um valor (Positivo)")
+	}
+}

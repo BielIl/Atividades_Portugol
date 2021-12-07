@@ -1,0 +1,49 @@
+programa
+{
+	
+	funcao	inicio()
+	{
+	
+	real X1[4][6],X2[4][6],Y1[4][6],Y2[4][6]
+	inteiro tamanhoLinha = 4, tamanhoColuna = 6
+
+		para (inteiro L = 0; L < tamanhoLinha; L++){
+			para (inteiro C = 0; C < tamanhoColuna; C++){
+				escreva ("Digite o valor de X1? ")
+				leia (X1[L][C])
+			
+			}
+		}
+		
+		para (inteiro L = 0; L < tamanhoLinha; L++){
+			para (inteiro C = 0; C < tamanhoColuna; C++){
+				escreva ("Digite o valor de Y1? ")
+				leia (Y1[L][C])
+			
+			}
+		}
+		//X2
+		escreva ("\n")
+			para (inteiro L = 0; L < tamanhoLinha; L++){
+				escreva (" | ")
+				para (inteiro C = 0; C < tamanhoColuna; C++){
+					X2[L][C] = X1[L][C] + Y1[L][C]
+					escreva (X2[L][C] + " | ")
+					
+			}
+			escreva ("\n")
+		}
+		//Y2
+		escreva ("\n")
+			para (inteiro L = 0; L < tamanhoLinha; L++){
+				escreva (" | ")
+				para (inteiro C = 0; C < tamanhoColuna; C++){
+					Y2[L][C] = X1[L][C] - Y1[L][C]
+					escreva (Y2[L][C] + " | ")
+
+			}
+			escreva ("\n")
+		}
+		
+	}
+}	

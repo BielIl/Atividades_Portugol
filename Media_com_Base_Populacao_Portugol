@@ -1,0 +1,53 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		real S,C,SS = 0.0 ,MS, SC = 0.0 , TS = 0.0 ,TC = 0.0,MMS = 0.0
+		inteiro X,P,PP = 0
+
+		/* S  = Salario
+		 * SS = +Salario
+		 * SC = +crianco
+		 * TS = Total Salario
+		 * TC = Total Crianca
+		 * C  = Crianca
+		 * P  = Populacao
+		 * MMS = maior salario
+		 */
+
+		 //mensagem inicial
+		escreva ("Qual a população? ")
+		leia(P)
+ 
+		//analise
+		para (X = P ; X >= 1 ; X--) { 
+			
+			//mensagem inicial
+			escreva ("Qual salario da pessoa? ")
+			leia(S)
+
+				//analise de valor do salario maior
+				se (MMS < S)
+					MMS = S
+					
+				//quem recebe ate 100 pila
+				se (S <= 100)
+					PP = (PP++)*100/P
+					
+			escreva ("Qual a quantida de crianças? ")
+			leia(C)
+
+				//procesamento
+				SS = SS + S
+				SC = SC + C
+				TS = SS /P
+				TC = SC /P
+
+		}
+			//mensagem final
+					escreva ("Media de salario é " + TS + "\nA media de criaça por familia é de " + TC + "\nO maior salario é de " + MMS)
+					escreva ("\nPorcetagem de pessoas com menos de 100 reais " + PP + "%" )
+	}
+}

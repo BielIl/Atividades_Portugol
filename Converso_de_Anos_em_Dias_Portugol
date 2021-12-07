@@ -1,0 +1,35 @@
+programa
+{
+
+	funcao inicio()
+	{
+	
+//Nome: Gabriel l. Nolasco
+//turma: 42
+
+	// data / dados
+
+	inteiro idade,dia,mes,DDV
+	
+	// primeiro encontro
+	
+	escreva("qual a sua idade? ")
+	leia(idade)
+
+	// logica
+
+	DDV = idade * 365
+	mes = DDV /12
+	
+	// resuktado
+
+	escreva ("seus anos de vida são " + idade)
+	
+	escreva ("\nseus meses de vida são " + mes)
+	
+	escreva ("\nseus dias de vida são " + DDV) 
+
+
+	
+	}
+}

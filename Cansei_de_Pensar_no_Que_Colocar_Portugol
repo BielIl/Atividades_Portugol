@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		real X
+
+		//mensagem inicial
+
+		escreva ("Digite um valor ? ")
+		leia (X)		
+
+		//processamento
+
+		se (X >= 100) {
+			
+			escreva ("O valor é " + X)
+		}
+
+		senao se (X < 100)
+
+			escreva ("O valor é 0 ")
+	
+		senao
+			escreva ("Isso não é valido")
+	}
+}

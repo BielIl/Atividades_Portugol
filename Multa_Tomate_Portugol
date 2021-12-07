@@ -1,0 +1,34 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	//dados
+
+	real E,P,M,X
+	/* P = peso
+	 *  E = excesso
+	 *  M = Multa
+	 */
+	M = 4.00
+	//mensagem iniciar
+
+	escreva ("peso dos tomates é de? ")
+	leia (P)
+	
+	//processamento
+	
+	se (P <50) {
+		escreva ("você não precisa pagar imposto ")
+	}
+
+	senao {
+
+		E = P - 50
+		X = E * M
+		
+		escreva ("você excedeu " + E + "\nvocê precisa pagar " + X + " reais")
+	}
+	}
+}

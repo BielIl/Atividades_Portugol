@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+	// Nome: Gabriel l. Nolasco
+  	//Turma: 42
+
+		//dados
+
+		real X,Y,Z,W
+		
+		//primeiro encontro
+		
+  		escreva ("qual o valor de X? ")
+  		leia (X)
+  		
+  		escreva ("qual o valor de Y? ")
+  		leia (Y)
+  		
+  		escreva ("qual o valor de Z? ")
+  		leia (Z)
+
+  		//processamento
+  		
+  		X = (X * 2)
+  	   	Y = (Y * 3)
+  	   	Z = (Z * 5)
+  	   	W = (X + Y + Z) /3
+
+  	   	//texto final
+
+  	   	escreva ("sua media de nota é " + W)
+	}
+}
+  	   	
+  	   	
+		

@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//Vetor
+		real N[5]
+		real V = 0.0
+		
+		para (inteiro A = 0; A < 5; A++ ) {
+			escreva ("Digite o valor - ")
+			leia (N[A])
+			
+		}
+		
+		V = N[0]
+
+		para (inteiro A = 0; A < 5; A++ ) {
+			se (V < N[A]) {
+				V = N[A]
+			}
+		}
+		
+		escreva ("o mairo valor é " + V) 
+	}
+}

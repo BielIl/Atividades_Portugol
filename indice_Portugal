@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		real X
+
+		//mensagem inicial
+
+		escreva ("Qual o índice de poluição? ")
+		leia (X)
+
+		//processamento
+		
+		se (X >= 0.05 e X <= 0.25 )
+			escreva ("Nemnhuma fabrica deve parar.")
+
+		senao se (X >= 0.3 e X <= 0.39 )
+			escreva("As indústrias do 1º grupo são intimadas a suspenderem suas atividades!")
+
+		senao se (X >= 0.4 e X<= 0.49)
+			escreva("As industrias do 1º e 2º grupo são intimadas a suspenderem suas atividades!")
+
+		senao se (X > 0.5 )
+			escreva("Todos os grupos devem ser notificados a paralisarem suas atividades!.")
+
+		senao
+			escreva("Valor não corresponde.")
+			
+		//mensagem final
+
+		escreva ("\nDenada!")
+		
+	}
+}

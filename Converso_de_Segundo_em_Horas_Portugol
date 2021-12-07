@@ -1,0 +1,35 @@
+programa
+{
+
+	funcao inicio()
+	{
+	
+  // Nome: Gabriel l. Nolasco
+  //Turma: 42
+  
+	// data / dados
+
+	real SegProducao, min, hora
+
+	// primeiro encontro
+	
+	escreva("qual segudos para produzir? ")
+	leia(SegProducao)
+
+	// logica
+
+	min = SegProducao /60
+	hora = min /60
+	
+	// resuktado
+
+	escreva ("seus segundos de produção são " + SegProducao)
+	
+	escreva ("\nseus minutos de produção são " + min)
+	
+	escreva ("\nseus hora de produção são " + hora) 
+
+
+	
+	}
+}

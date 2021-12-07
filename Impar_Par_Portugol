@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		inteiro X,Y,Z
+
+		//mensagem inicial
+
+		escreva ("Qual o numero ? ")
+		leia (X)
+
+		//processamento
+		
+		Z = X/2
+
+		se (X == 0)
+			escreva ("O valor é zero ")
+			
+		senao se (X % 2 !=0)
+			escreva ("O numero é impar ")
+			
+		senao
+			escreva ("O valor é par ")
+			
+		//mensagem final
+
+		escreva ("\nDenada!")
+		
+	}
+}

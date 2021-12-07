@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  
+// Nome: Gabriel l. Nolasco
+//Turma: 42
+
+		//dados
+
+		real VDC,VDC1,VDC2
+
+		//primeiro encontro
+
+		escreva ("valor do carro? ")
+		leia (VDC)
+		
+		//processamento
+
+		VDC1 = ((VDC * 28) /100) + VDC
+		VDC2 = ((VDC1 * 45) /100) + VDC
+		
+		//texto final
+
+		escreva ("Valor do carro com a porcetagem do distribuidor " + VDC1)
+		escreva ("\nValor do carro com os impostos " + VDC2)
+
+	}
+}

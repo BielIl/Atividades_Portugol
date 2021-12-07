@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+// Nome: Gabriel l. Nolasco
+//Turma: 42
+
+  		//dados
+
+  		inteiro X,Y,Z,W,R,S
+
+  		//primeiro encontro
+  		escreva ("qual o valor de X? ")
+  		leia (X)
+  		
+  		escreva ("qual o valor de Y? ")
+  		leia (Y)
+  		
+  		escreva ("qual o valor de Z? ")
+  		leia (Z)
+
+  		//processamento
+  		R = (X + Y)
+  		S = (Y + Z)
+  		W = (R + S) /2
+
+  		//texto final
+
+  		escreva ("O seu resultado é? " + W)
+	}
+}

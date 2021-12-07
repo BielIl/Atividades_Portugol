@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro X = 233, Y = 0
+	
+		faca {
+			
+			se (X >= 233 e X < 300) {
+				
+			Y = X + 5
+			X = Y
+			escreva ("\nN:" + Y)
+			
+			}
+				senao se (X >= 300 e X < 400){
+					
+					Y = X + 3
+					X = Y
+					escreva ("\nN:" + Y)
+				} 
+					senao {
+				
+					Y = X + 5
+					X = Y
+					escreva ("\nN:" + Y)
+					}
+		} 	
+		enquanto (X <= 456 ) 
+	}	
+}

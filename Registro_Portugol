@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+
+			real H,Y,X,Z,W
+			inteiro C
+			Y = 0.0
+
+		//mensagem inicial
+		
+		escreva ("digite o codigo do funcionario ")
+		leia (C)
+		escreva ("total de horas trabalhadas? ")
+		leia (H)
+		
+
+		//processamento
+		
+		X = H*10
+		
+		se (H >50){
+			
+			Y = (H-50)*20
+			Z = H-50
+			escreva ("Você trabalhou " + Z + " horas." + "\nVocê vai receber " + Y + " reais de extra")
+		}
+		
+		senao 
+			
+			escreva ("Você não trabalhou horas suficientes para receber extra")
+
+		//mensagem final
+
+		escreva ("\nseu salario total é de " + (X + Y) + " reais")
+		escreva ("\nRegistro " + C)
+	}
+}

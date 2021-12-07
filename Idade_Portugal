@@ -1,0 +1,36 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//dados
+		
+		inteiro X
+
+		//mensagem inicial
+
+		escreva ("Qual a idade do nadador/a? ")
+		leia (X)
+
+		//processamento
+
+		se (X >= 5 e X <=7)
+			escreva ("O nadador/a é Infantil A")
+
+		senao se (X >= 8 e X <= 11)
+			escreva ("O nadador/a é Infantil B")
+
+		senao se (X >= 12 e X <= 13)
+			escreva ("O nadador/a é Juvenil A")
+
+		senao se (X >= 14 e X <= 17)
+			escreva ("O nadador/a é Juvenil B")
+
+		senao se (X > 18)
+			escreva ("O nadador/a é Adulto/a")
+
+		senao
+			escreva ("Isso não é uma idade valida")
+		
+	}
+}

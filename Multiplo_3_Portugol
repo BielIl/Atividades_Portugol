@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro X
+	
+	escreva ("qual o valor? ")
+	leia (X)
+	escreva ("\nN:" + X)
+	
+		enquanto (X <= 1000){
+
+		X = X*3
+		
+		escreva ("\nN:" + X)
+		
+		}
+	}
+}

@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+    //dado levado como base é um D6
+		real X[10],Z = 0.0 , Y = 0.0
+		
+			para (inteiro A = 0; A <= 9; A++ ){
+				escreva ("Digite o valor: ")
+				leia (X[A])
+				Z = (X[A] + Z)
+					se (X[A] > 5) 
+					Y++
+		}
+		Z = Z / 10
+		escreva ("\nQuantida de 6 = " + Y)
+		escreva ("\nMedia " + Z)
+	}
+}	
